@@ -1,6 +1,6 @@
 * {
     padding: 0px;
-    margin: 0px;    
+    margin: 0px; 
 }
 @font-face{
     font-family: 'baron';
@@ -25,7 +25,6 @@ a:hover{
 }
 .logo:hover{
     font-size: 42px;  
-
 }
 .icon{
     width:50px;
@@ -53,8 +52,8 @@ main {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: end;
 }
 .container-invisivel{
     display: flex;
@@ -64,29 +63,49 @@ main {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     gap: 50px;
     transition: 1s;
+    margin-top: 170px;
+    margin-right: 400px;    
 }
 button{
     border: none;
     background-color: transparent;
     border-width: 10px;
     border: 3.5px solid black;
-    color: #D9D9D9;
     border-radius: 7px;
     padding: 10px;
     font-size: 30px;
 }
-.botao a{
-    color: aliceblue;
-    -webkit-text-stroke: 1px black;
+button a{
+    color: whitesmoke;
 }
-.labelcd{
+button a:hover{
+    font-size: 105%;
+}
+.label-cd{
     text-align: center;
-
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
 }
 .container-invisivel:hover{
     background-color: rgba(255, 255, 255, 0.2);
+}
+@media (max-width: 1000px){
+  .container-invisivel{
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+  }
+  button{
+    font-size: 25px;
+    border: 2.5px solid black;
+    margin-bottom: 20px;
+  }
+  .label-cd{
+    font-size: 20px;
+  }
 }

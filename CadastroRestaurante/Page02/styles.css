@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: 'baron';
+    src: url(./baron/Baron\ Neue.otf) format('opentype'); /*exportando fonte*/
+}
+a{        
+    font-family: baron;
+    text-decoration: none; 
+    opacity: 0.7;
+    transition: 1s;
+}
+a:hover{
+    opacity: 1.0;
+}
+.logo{
+    display: flex;
+    font-size: 40px;  
+    letter-spacing: 4px;
+    color: whitesmoke;
+    margin-top: -10px; 
+    transition: 1s;   
+}
+.logo:hover{
+    font-size: 42px;  
+}
+.icon{
+    width:50px;
+    height: 50px;
+    padding-top: 10px;
+    transition: 1s;
+}
+.icon:hover{
+    width:55px;
+    height: 55px;
+}
+nav{
+    display: flex;
+    justify-content: center;    
+    background-color: #2d336b;
+    align-items: center;
+    height: 6vh;
+}
+main{
+    background-image: url(./imgs/fundo.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+.container-full{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container-cadastro{
+    display: flex;
+    align-content: space-between; 
+    height: 300px;
+    width: 550px;
+    background-color: #464c82;
+    flex-direction: column;   
+    justify-content: space-between;
+    border-radius: 20px 80px;
+    padding: 30px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-transform:capitalize;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
+.div-group{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+}
+.div-group2{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.div-group2 div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+}
+label{
+    margin-bottom: 3px;
+
+}
+
+

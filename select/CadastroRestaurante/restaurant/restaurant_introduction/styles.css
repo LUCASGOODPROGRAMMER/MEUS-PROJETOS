@@ -77,7 +77,7 @@ main {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     height: 350px;
-    width: 350px;
+    width: 450px;
     gap: 50px;
     transition: 1s;
     margin-top: 170px;
@@ -101,8 +101,10 @@ button a:hover{
 .label-cd{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
+    font-style:italic;
+    text-decoration:underline  3px ;
 }
 .container-invisivel:hover{
     background-color: rgba(255, 255, 255, 0.2);

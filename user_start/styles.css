@@ -2,13 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
-
 @font-face {
     font-family: 'baron';
     src: url(./baron/Baron\ Neue.otf) format('opentype');
     /*exportando fonte*/
 }
-
 a {
     font-family: baron;
     text-decoration: none;
@@ -88,41 +86,44 @@ nav {
     height: 40px;
     width: 40px;
 }
-body{
-}
 .caixas{
     display:flex;
     flex-direction:column;
     height: 100vh;
-    background-color:black;
+    background: url(./imgs/imgs/fundo.png);
+    background-size: cover;
     justify-content: space-around;
     align-items: center;
 }/*organizando as divs da class caixa-select*/
 .caixa-select{
     display: flex;
     background-color: black;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-    margin-top: -40px;   
+    height: 10rem;
+    width: 30rem;
+    margin-left: 5%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    margin-top: -5%;   
     opacity: 0.75; 
+    overflow:hidden;
 }/*definindo propriedades*/
 #select01{
+    display:flex;
+    align-items: center;
     background: #2D336B;
+    text-align: center;
 }/*mechendo na primeira class caixa-select*/
+.rogerinho{
+    display: flex;
+    height: 100%;
+}
 #select02{
     background: #6B362D;
 }/*mechendo na segunda class caixa-select*/
-#login-cadastro{
-    background: rgba(255,255,255,0.2);
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-}/*mechendo na terceira class caixa-select*/
-.caixa-interna{
-    height: 40%;
-    width: 40%;
-    background: rgba(0, 0, 0, 0.245);
+#login{
+    height: 10%;
+    width: 35%;
+    background: rgba(0, 0, 0, 0.66);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -132,12 +133,12 @@ body{
     transition: 1s ease;
     transition-delay: 100ms;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}/*mechendo nas divs dentro da terceira class caixa-select*/
-.caixa-interna:hover{
+}/*mechendo na terceira class caixa-select*/
+.login-cadastro:hover{
     transform: scale(1.1)
 }
 .group01{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .group02{
     font-size: 1rem;
